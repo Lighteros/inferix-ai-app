@@ -1,0 +1,10 @@
+.last-rendered img[data-v-cadd7d80] {
+  max-height: 100%;
+  max-width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.nothing-rendered-yet img[data-v-cadd7d80] {
+  height: 100%;
+  width: 100%;
+}

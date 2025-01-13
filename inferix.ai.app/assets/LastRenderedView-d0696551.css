@@ -1,0 +1,27 @@
+.global-last-rendered > div[data-v-7e5cb44c] {
+  height: 100%;
+}
+
+.global-last-rendered[data-v-7e5cb44c] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: calc(
+    100vh -
+      calc(
+        var(--header-height) - var(--footer-height) -
+          calc(var(--grid-gap) * -12)
+      )
+  );
+  max-height: 100%;
+  background-color: #000;
+}
+@media not all and (min-width: 768px) {
+  .global-last-rendered .last-rendered[data-v-7e5cb44c] {
+    display: flex;
+  }
+}
+.global-last-rendered .last-rendered[data-v-7e5cb44c] {
+  max-height: 100%;
+  max-width: 100%;
+}
