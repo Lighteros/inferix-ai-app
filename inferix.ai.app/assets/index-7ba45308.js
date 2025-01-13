@@ -116558,36 +116558,6 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
             !_ctx.headerIsChanged
               ? (openBlock(),
                 createElementBlock("ul", _hoisted_4, [
-                  createBaseVNode("li", _hoisted_5, [
-                    createVNode(
-                      _component_router_link,
-                      { to: { name: "workers" } },
-                      {
-                        default: withCtx(() => [_hoisted_6, _hoisted_7]),
-                        _: 1,
-                      }
-                    ),
-                  ]),
-                  createBaseVNode("li", _hoisted_8, [
-                    createVNode(
-                      _component_router_link,
-                      { to: { name: "jobs" } },
-                      {
-                        default: withCtx(() => [_hoisted_9, _hoisted_10]),
-                        _: 1,
-                      }
-                    ),
-                  ]),
-                  createBaseVNode("li", _hoisted_11, [
-                    createVNode(
-                      _component_router_link,
-                      { to: { name: "last-rendered" } },
-                      {
-                        default: withCtx(() => [_hoisted_12, _hoisted_13]),
-                        _: 1,
-                      }
-                    ),
-                  ]),
                 ]))
               : (openBlock(),
                 createElementBlock("ul", _hoisted_14, [

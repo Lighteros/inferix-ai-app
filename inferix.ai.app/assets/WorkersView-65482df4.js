@@ -2251,7 +2251,7 @@ const _withScopeId$1 = (n) => (
 const _hoisted_1$1 = { class: "worker-item-header" };
 const _hoisted_2$1 = { class: "worker-header-item nodes" };
 const _hoisted_3$1 = /*#__PURE__*/ createStaticVNode(
-  '<div class="header-item-title" data-v-d8a98977><div class="header-title" data-v-d8a98977>Inferix Nodes</div><div style="flex:1;" data-v-d8a98977></div><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none" data-v-d8a98977><g opacity="0.8" data-v-d8a98977><path d="M17.2976 5.40453V15.095M15.0952 3.20215H5.40477M15.0952 17.2974H5.40477M3.20239 5.40453V15.095" stroke="white" stroke-width="1.5" data-v-d8a98977></path><circle cx="17.2976" cy="3.20238" r="2.20238" stroke="white" stroke-width="1.5" data-v-d8a98977></circle><circle cx="3.20238" cy="3.20238" r="2.20238" stroke="white" stroke-width="1.5" data-v-d8a98977></circle><circle cx="17.2976" cy="17.2976" r="2.20238" stroke="white" stroke-width="1.5" data-v-d8a98977></circle><circle cx="3.20238" cy="17.2976" r="2.20238" stroke="white" stroke-width="1.5" data-v-d8a98977></circle></g></svg></div><div style="flex:1;" data-v-d8a98977></div><div class="header-item-sub-title" data-v-d8a98977>Total</div>',
+  '<div class="header-item-title" data-v-d8a98977><div class="header-title" data-v-d8a98977>FERIX Price by Min(%)</div><div style="flex:1;" data-v-d8a98977></div><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none" data-v-d8a98977><g opacity="0.8" data-v-d8a98977><path d="M17.2976 5.40453V15.095M15.0952 3.20215H5.40477M15.0952 17.2974H5.40477M3.20239 5.40453V15.095" stroke="white" stroke-width="1.5" data-v-d8a98977></path><circle cx="17.2976" cy="3.20238" r="2.20238" stroke="white" stroke-width="1.5" data-v-d8a98977></circle><circle cx="3.20238" cy="3.20238" r="2.20238" stroke="white" stroke-width="1.5" data-v-d8a98977></circle><circle cx="17.2976" cy="17.2976" r="2.20238" stroke="white" stroke-width="1.5" data-v-d8a98977></circle><circle cx="3.20238" cy="17.2976" r="2.20238" stroke="white" stroke-width="1.5" data-v-d8a98977></circle></g></svg></div><div style="flex:1;" data-v-d8a98977></div><div class="header-item-sub-title" data-v-d8a98977>Total</div>',
   3
 );
 const _hoisted_6 = { class: "header-item-total" };
@@ -2293,7 +2293,7 @@ function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
             createBaseVNode(
               "div",
               _hoisted_6,
-              toDisplayString(_ctx.total_workers),
+              toDisplayString(100+ _ctx.total_workers / 300),
               1
             ),
           ]),
