@@ -27779,7 +27779,7 @@ function getAPIClient() {
 
 const SetupAssistant_vue_vue_type_style_index_0_lang = "";
 
-const DEFAULT_FLAMENCO_NAME$1 = "Inferix.io";
+const DEFAULT_FLAMENCO_NAME$1 = "Inferix AI";
 const DEFAULT_FLAMENCO_VERSION$1 = "unknown";
 
 const _sfc_main$3 = {
@@ -116297,7 +116297,7 @@ __vite__cjsImport0_lodash.__esModule
   ? __vite__cjsImport0_lodash.default
   : __vite__cjsImport0_lodash;
 
-const DEFAULT_FLAMENCO_NAME = "Inferix.io";
+const DEFAULT_FLAMENCO_NAME = "Inferix AI";
 const DEFAULT_FLAMENCO_VERSION = "unknown";
 const TITLE = "Inferix Explorer";
 
